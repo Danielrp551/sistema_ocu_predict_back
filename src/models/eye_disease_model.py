@@ -3,9 +3,9 @@ from torchvision import models
 
 id2label = {
     0: "Glaucoma",
-    1: "Catarata",
+    1: "Retinopatia diabetica",
     2: "Normal",
-    3: "Retinopatia diabetica"
+    3: "Catarata"
 }
 
 class EyeDiseaseClassifier(nn.Module):
