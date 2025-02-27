@@ -65,5 +65,8 @@ ipython_config.py
 instance/
 .webassets-cache
 
+# Modelos
+*.pth
+
 # Otros
 *.log
