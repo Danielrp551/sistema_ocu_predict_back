@@ -1,0 +1,69 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribución y empaquetado
+.Python
+env/
+venv/
+ENV/
+.build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Archivos de PyInstaller
+*.manifest
+*.spec
+
+# Logs e informes de testing
+pip-log.txt
+pip-delete-this-directory.txt
+coverage.xml
+*.cover
+.coverage
+.cache
+.tox/
+.nox/
+htmlcov/
+nosetests.xml
+pytest_cache/
+.pytest_cache/
+
+# Archivos y carpetas de configuración de IDEs y editores
+.vscode/
+.idea/
+
+# Archivos de configuración de herramientas de linters y type checkers
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Archivos de Jupyter Notebook y IPython
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# Archivos de entorno (NO versionar tus credenciales)
+.env
+
+# Archivos generados por Flask (instance folder y webassets cache)
+instance/
+.webassets-cache
+
+# Otros
+*.log
